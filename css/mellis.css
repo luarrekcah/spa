@@ -30,6 +30,7 @@
   --mellis-extra: #fcf5f5;
   --mellis-extra-rgb: 252, 245, 245;
   --mellis-gray: #89868d;
+   --mellis-gold: #ffd037;
   --mellis-gray-rgb: 137, 134, 141;
   --mellis-bdr-color: #f0e8e8;
   --mellis-bdr-color-rgb: 240, 232, 232;
@@ -750,7 +751,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: var(--mellis-extra);
+  background-color: var(--mellis-gold);
   padding-left: 60px;
   z-index: 1;
 }
@@ -789,7 +790,7 @@ ul {
   background-color: var(--mellis-base);
   border-radius: 50%;
   font-size: 10px;
-  color: var(--mellis-white);
+  color: var(--mellis-gold);
 }
 
 .main-header__contact-list li .text {
